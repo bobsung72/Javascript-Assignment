@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Word_Game</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+  <script type="text/javascript">
+
+    var startGame = confirm("Are you ready to start Game? Clue: German Luxury Car");
+
+    document.onkeyup = function (event) {
+      var userGuess = event.key;
+      var computerGuess = computerChoices[math.floor(math.random() * computerChoices.length)];
+      for (var i = 0; i < computerChoices.length; i++) {
+        if (computerChoices[i] = 0) {
+          alert("Clue: Seven Letters"); {
+            if ((userGuess === "p") || (userGuess === "o") || (userGuess === "r") || (userGuess === "s") ||
+              (userGuess === "c") || (userGuess === "h") || (userGuess === "e")); {
+              wins++;
+            } else lose++;
+          }
+          if (computerChoices[i] = 1) {
+            alert("Clue: Four Letters"); {
+              if ((userGuess === "a") || (userGuess === "u") || (userGuess === "d") || (userGuess === "i"));
+            } else lose++;
+            if (computerChoices[i] = 2) {
+              alert("Clue: Three Letters"); {
+                if ((userGuess === "b") || (userGuess === "m") || (userGuess === "w"));
+              } else lose++;
+              if (computerChoices[i] = 3) {
+                alert("Clue: Eight Letters"); { 
+                  if ((userGuess === "m") || (userGuess === "e") || (userGuess === "r") || (userGuess==="c")
+                  (userGuess === "e") || (userGuess === "d") || (userGuess === "e") || (userGuess === "s")
+                  );
+                } else lose++;
+              }
+            }
+          }
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+
+
+
+</body>
+
+</html>
